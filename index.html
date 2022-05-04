@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    
+
+    <!--Add your Firsebase Config here below. -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyD_pk07SmJ39W6L05LLNacQg_0kSRDVtz8",
+  authDomain: "airbo-25a7f.firebaseapp.com",
+  databaseURL: "https://airbo-25a7f-default-rtdb.firebaseio.com",
+  projectId: "airbo-25a7f",
+  storageBucket: "airbo-25a7f.appspot.com",
+  messagingSenderId: "672608836686",
+  appId: "1:672608836686:web:8a5253ad62a80154dff71f",
+  measurementId: "G-0WE4N1TV7Q"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
